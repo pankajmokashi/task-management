@@ -11,7 +11,8 @@ import {
 } from "./types";
 import { toast } from "react-toastify";
 
-const API_URL = `http://localhost:5000`;
+// const API_URL = `http://localhost:5000`;
+const API_URL = "http://ec2-13-201-4-189.ap-south-1.compute.amazonaws.com";
 
 const api = axios.create({
   baseURL: API_URL,
